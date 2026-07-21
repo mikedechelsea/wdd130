@@ -1,5 +1,24 @@
+/* Navigation */
+nav {
+    background-color: steelblue;
+    padding: 1rem;
+}
+
+/* Navigation links */
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+}
+
 main {
     max-width: 840px;
+}
+
+/* Main heading */
+h1 {
+    color: steelblue;
 }
 
 main img {
