@@ -77,7 +77,7 @@ nav a:hover {
     width: 100%;
     padding: 16px;
     text-align: center;
-    color: white;
+    color: var(--secondary-color);
     background-color: rgb(38 70 83 / 75%);
 }
 
