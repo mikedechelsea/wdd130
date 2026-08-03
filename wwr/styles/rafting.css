@@ -174,3 +174,102 @@ footer {
     width: 32px;
     height: 32px;
 }
+
+/* CONTACT PAGE */
+
+.contact-info {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.contact-info iframe {
+    width: 100%;
+    height: 350px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.employees {
+    margin: 40px 0;
+}
+
+.employees h2 {
+    margin-bottom: 20px;
+}
+
+.employees {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
+}
+
+.employees img {
+    width: 80%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.employees figcaption {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form {
+    max-width: 700px;
+    margin: 40px auto;
+    display: grid;
+    gap: 20px;
+}
+
+.form-item {
+    display: grid;
+    gap: 8px;
+}
+
+.column2 {
+    grid-template-columns: 1fr;
+}
+
+.form-item label {
+    font-weight: bold;
+}
+
+input,
+textarea {
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+fieldset {
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+fieldset label {
+    display: block;
+    margin: 10px 0;
+}
+
+.newsletter {
+    margin-top: 10px;
+}
+
+button {
+    width: 220px;
+    margin: auto;
+    padding: 12px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--accent1-color);
+}
