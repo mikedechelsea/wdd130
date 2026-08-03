@@ -194,24 +194,25 @@ footer {
 }
 
 .employees h2 {
-    margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 25px;
 }
 
-.employees {
+.employee-gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     text-align: center;
 }
 
-.employees img {
-    width: 80%;
+.employee-gallery img {
+    width: 100%;
     height: 220px;
     object-fit: cover;
     border-radius: 8px;
 }
 
-.employees figcaption {
+.employee-gallery figcaption {
     margin-top: 10px;
     font-weight: bold;
 }
